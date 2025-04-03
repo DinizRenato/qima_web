@@ -1,0 +1,17 @@
+<mat-card class="category-form-container">
+  <mat-card-title>{{ isEditMode ? 'Edit Category' : 'New Category' }}</mat-card-title>
+
+  <form [formGroup]="form" (ngSubmit)="saveCategory()">
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Category Name</mat-label>
+      <input matInput formControlName="name">
+    </mat-form-field>
+
+    <div class="button-container">
+      <button mat-button color="warn" (click)="closeDialog()">Cancel</button>
+      <button mat-flat-button color="primary" type="submit" [disabled]="form.invalid">
+        Save
+      </button>
+    </div>
+  </form>
+</mat-card>

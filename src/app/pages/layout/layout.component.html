@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+  <span>QIMA</span>
+  <span class="spacer"></span>
+  <a mat-button routerLink="/categories">Categories</a>
+  <a mat-button routerLink="/products">Products</a>
+  <button mat-icon-button matTooltip="Logout" (click)="logout()">
+    <mat-icon>logout</mat-icon>
+  </button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

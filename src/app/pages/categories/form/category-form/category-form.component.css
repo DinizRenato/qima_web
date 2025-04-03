@@ -1,0 +1,15 @@
+.category-form-container {
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

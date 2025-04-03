@@ -1,0 +1,21 @@
+.products-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #f5f5f5;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
